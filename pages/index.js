@@ -55,7 +55,7 @@ function Home() {
         return(
           <SwiperSlide style={{justifyContent:'center', display:'flex'}}>
             <img
-            src={elem.original}
+            src={images.original}
             height={'500px'}
             />
           </SwiperSlide>
