@@ -1,8 +1,6 @@
 import "tailwindcss/tailwind.css";
-import Image from "next/image";
 import SideMenu from "../src/layout/SideMenu";
 import Header from "../src/layout/Header";
-import img from "../src/media/mainImage.jpeg";
 
 const  MyApp = ({ Component, pageProps }) => {
   return(
