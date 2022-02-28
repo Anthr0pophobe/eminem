@@ -1,7 +1,6 @@
 import React from 'react';
 import { Navigation} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Image from 'next/image';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -9,14 +8,69 @@ import 'swiper/css/scrollbar';
 
 const images = [
   {
-    original: 'https://picsum.photos/id/1018/1000/600/',
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
   },
   {
-    original: 'https://picsum.photos/id/1015/1000/600/',
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
   },
   {
-    original: 'https://picsum.photos/id/1019/1000/600/',
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
   },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+  {
+    original: 'https://cdn.radiofrance.fr/s3/cruiser-production/2020/04/51007fde-7a76-4d02-bbf5-5097f91ba9c2/801x410_801x410_eminem.jpg',
+  },
+
 ];
 
 const videos =[
@@ -29,15 +83,62 @@ const videos =[
   {
     link: 'https://www.youtube.com/embed/4haurn3S8z8',
   },
+  {
+    link: 'https://www.youtube.com/embed/gOMhN-hfMtY',
+  },
+  {
+    link: 'https://www.youtube.com/embed/_Yhyp-_hX2s',
+  },
+  {
+    link: 'https://www.youtube.com/embed/4haurn3S8z8',
+  },
+  {
+    link: 'https://www.youtube.com/embed/gOMhN-hfMtY',
+  },
+  {
+    link: 'https://www.youtube.com/embed/_Yhyp-_hX2s',
+  },
+  {
+    link: 'https://www.youtube.com/embed/4haurn3S8z8',
+  },
+  {
+    link: 'https://www.youtube.com/embed/gOMhN-hfMtY',
+  },
+  {
+    link: 'https://www.youtube.com/embed/_Yhyp-_hX2s',
+  },
+  {
+    link: 'https://www.youtube.com/embed/4haurn3S8z8',
+  },
+  {
+    link: 'https://www.youtube.com/embed/gOMhN-hfMtY',
+  },
+  {
+    link: 'https://www.youtube.com/embed/_Yhyp-_hX2s',
+  },
+  {
+    link: 'https://www.youtube.com/embed/4haurn3S8z8',
+  },
+  {
+    link: 'https://www.youtube.com/embed/gOMhN-hfMtY',
+  },
+  {
+    link: 'https://www.youtube.com/embed/_Yhyp-_hX2s',
+  },
+  {
+    link: 'https://www.youtube.com/embed/4haurn3S8z8',
+  },
+  {
+    link: 'https://www.youtube.com/embed/gOMhN-hfMtY',
+  },
+  {
+    link: 'https://www.youtube.com/embed/_Yhyp-_hX2s',
+  },
+  {
+    link: 'https://www.youtube.com/embed/4haurn3S8z8',
+  },
 ]
 
-const articles =[
-  {link : '/article/1'},
-  {link : '/article/2'},
-  {link : '/article/3'},
-  {link : '/article/4'},
-  {link : '/article/5'},
-]
 
 function Home() {
   return (
@@ -48,8 +149,6 @@ function Home() {
       spaceBetween={50}
       slidesPerView={3}
       navigation
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
     >
       {images.map((elem) => {
         return(
@@ -68,8 +167,6 @@ function Home() {
       spaceBetween={50}
       slidesPerView={1}
       navigation
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
     >
       {videos.map((elem) => {
         return(
@@ -77,13 +174,16 @@ function Home() {
           className='pt-4'
           style={{justifyContent:'center', display:'flex'}}
           >
-            <iframe
-                width="950" 
-                height="534" 
-                src={videos.link} 
-                title="YouTube video player" 
-                frameborder="0"  
-                allowfullscreen>
+            <iframe 
+              width="950" 
+              height="534" 
+              src={elem.link}
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen
+            >
+
             </iframe>
            </SwiperSlide>
         )
